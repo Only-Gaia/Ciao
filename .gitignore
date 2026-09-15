@@ -1,0 +1,31 @@
+# ---------- SEGRETI ----------
+.env
+*.env
+
+# ---------- DATI GENERATI DAL BOT ----------
+data/
+*.json
+
+# ---------- PYTHON ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+
+# ---------- VIRTUAL ENVIRONMENT ----------
+venv/
+env/
+.venv/
+
+# ---------- EDITOR / IDE ----------
+.vscode/
+.idea/
+*.swp
+
+# ---------- SISTEMA ----------
+.DS_Store
+Thumbs.db
+
+# ---------- LOG ----------
+*.log
